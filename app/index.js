@@ -48,5 +48,5 @@ StylusFrontendGenerator.prototype.app = function app() {
 };
 
 StylusFrontendGenerator.prototype.projectfiles = function projectfiles() {
-  this.copy('._gitignore', '.gitignore');
+  this.copy('_gitignore', '.gitignore');
 };
